@@ -66,4 +66,6 @@
 #define RGB(r,g,b)     "\033[38;2;" #r ";" #g ";" #b "m"
 #define BG_RGB(r,g,b)  "\033[48;2;" #r ";" #g ";" #b "m"
 
+void colors_init(void);
+
 #endif
